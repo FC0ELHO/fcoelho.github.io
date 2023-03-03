@@ -1,0 +1,3 @@
+/*<ScriptManager type="DATA" name="NOMBRE_TABLA" />*/
+
+--UPDATE OR DELETE

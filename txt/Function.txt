@@ -1,0 +1,13 @@
+FUNCTION:
+
+/*<ScriptManager type="FUNCTION" name="NOMBRE_FUNCTION" />*/
+
+
+
+		IF(OBJECT_ID('@@FUNCTION') IS NOT NULL)
+		BEGIN
+			DROP FUNCTION [dbo].[@@FUNCTION ]
+		END
+		GO
+
+		CREATE FUNCTION [dbo].[@@FUNCTION]

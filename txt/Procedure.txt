@@ -1,0 +1,9 @@
+/*<ScriptManager type="PROCEDURE" name="NOMBRE_PROCEDURE" />*/
+
+
+		IF(OBJECT_ID('@@PROCEDURE') IS NOT NULL)
+		BEGIN
+			DROP PROCEDURE [dbo].[@@PROCEDURE]  
+		END
+		GO
+		CREATE PROCEDURE [dbo].[@@PROCEDURE]

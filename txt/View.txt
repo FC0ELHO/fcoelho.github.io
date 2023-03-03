@@ -1,0 +1,10 @@
+/*<ScriptManager type="VIEW" name="NOMBRE_VIEW" />*/
+
+
+		IF (OBJECT_ID('@@VIEW') IS NOT NULL)
+		BEGIN
+			DROP VIEW [dbo].[@@VIEW]
+		END
+		GO
+
+		CREATE VIEW [dbo].[@@VIEW]

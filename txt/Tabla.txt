@@ -1,0 +1,11 @@
+/*<ScriptManager type="TABLE" name="NOMBRE_TABLA" />*/
+
+
+
+		IF(OBJECT_ID('@@TABLA') IS NOT NULL)
+
+		BEGIN 
+			DROP TABLE [dbo].[@@TABLA]
+		END
+		GO
+		CREATE TABLE [dbo].[@@TABLA]
